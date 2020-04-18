@@ -1,9 +1,10 @@
 import React, {Component} from 'react';
 
-const Gate = (props) => {
+const Gate = ({ isOpen }) => {
   return (
     <div>
-      Gate!
+      <h2>Gate</h2>
+      {isOpen ? "open" : "closed"}
     </div>
   )
 }
