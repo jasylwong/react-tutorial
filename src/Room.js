@@ -10,6 +10,12 @@ const Room = function() {
       <button onClick={ () => setLit(!isLit) } >
         flick
       </button>
+      <button onClick={ () => setLit(true) } >
+        On
+      </button>
+      <button onClick={ () => setLit(false)} >
+        Off
+      </button>
     </div>
   )
 }
