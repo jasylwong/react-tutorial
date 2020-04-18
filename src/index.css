@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
@@ -15,3 +16,25 @@ code {
 .bold {
   font-weight: bold;
 }
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+.room {
+  height: 100%;
+  margin: 0;
+  background-color: blue;
+}
+
+.lit {
+background-color: white;
+color: black;
+}
+
+.dark {
+background-color: black;
+color: white;
+}
+
