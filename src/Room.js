@@ -1,9 +1,10 @@
-import React, {Component} from 'react';
+import React, { useState } from 'react';
 
 const Room = function() {
+  const [isLit, setLit] = useState(true);
   return (
     <div>
-      Room
+      <div className="room">The room is {isLit ? 'lit' : 'dark'}</div>
     </div>
   )
 }

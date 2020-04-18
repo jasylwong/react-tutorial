@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import index from './index.css';
 
 function MediaCard(props) {
