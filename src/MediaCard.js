@@ -1,9 +1,13 @@
 import React, {Component} from 'react';
 import index from './index.css';
 
-function MediaCard() {
+function MediaCard(props) {
   return (
-    <div>Media Card</div>
+    <div>
+      <h2>{props.title}</h2>
+      <p class="bold">{props.body}</p>
+      <img src={props.imageUrl} />
+    </div>
   )
 }
 
